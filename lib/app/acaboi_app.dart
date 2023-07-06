@@ -14,7 +14,7 @@ class AcaboiApp extends StatelessWidget {
       ),
       title: 'Acaboi App',
       routes: {
-        '/': (context) => const LoginPage(),
+        '/': (context) => LoginPage(),
       },
     );
   }
