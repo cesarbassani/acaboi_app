@@ -1,3 +1,4 @@
+import 'package:acaboi_app/app/pages/login_page.dart';
 import 'package:flutter/material.dart';
 
 class AcaboiApp extends StatelessWidget {
@@ -13,7 +14,7 @@ class AcaboiApp extends StatelessWidget {
       ),
       title: 'Acaboi App',
       routes: {
-        '/': (context) => Container(),
+        '/': (context) => const LoginPage(),
       },
     );
   }
